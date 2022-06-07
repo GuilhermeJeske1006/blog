@@ -13,7 +13,7 @@
                         <div class="featured-post-slide">
                             <div class="f-slide">
                                 
-                                <div class="f-slide__background" style="background-image:url('images/thumbs/featured/featured-1.jpg');"></div>
+                                <div class="f-slide__background" style="background-image:url('assets/images/thumbs/featured/featured-1.jpg');"></div>
                                 <div class="f-slide__overlay"></div>
 
                                 <div class="f-slide__content">
@@ -42,325 +42,15 @@
 
                 </div> <!-- end entry content -->
             </div> <!-- end entry, featured grid -->
-            @for($i=0; $i<5; $i++)
-            <article class="brick entry format-standard animate-this">
-
-                <div class="entry__thumb">
-                    <a href="single-standard.html" class="thumb-link">
-                        <img src="images/thumbs/masonry/woodcraft-600.jpg" 
-                             srcset="images/thumbs/masonry/woodcraft-600.jpg 1x, images/thumbs/masonry/woodcraft-1200.jpg 2x" alt="">
-                    </a>
-                </div> <!-- end entry__thumb -->
-
-                <div class="entry__text">
-                    <div class="entry__header">
-
-                        <div class="entry__meta">
-                            <span class="entry__cat-links">
-                                <a href="#">Design</a> 
-                                <a href="#">Photography</a>
-                            </span>
-                        </div>
-
-                        <h1 class="entry__title"><a href="single-standard.html">Just a Standard Format Post.</a></h1>
-                        
-                    </div>
-                    <div class="entry__excerpt">
-                        <p>
-                            Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua cillum in consequat consequat in culpa in anim.
-                        </p>
-                    </div>
-                </div> <!-- end entry__text -->
-
-            </article> <!-- end entry -->
-
-@endfor
-            <article class="brick entry format-quote animate-this" >
-
-                <div class="entry__thumb">
-                    <blockquote>
-                        <p>Good design is making something intelligible and memorable. Great design is making something memorable and meaningful.</p>
-
-                        <cite>Dieter Rams</cite>
-                    </blockquote>
-                </div>
-
-            </article> <!-- end article -->
-
-            <article class="brick entry format-standard animate-this">
-
-                <div class="entry__thumb">
-                    <a href="single-standard.html" class="thumb-link">
-                        <img src="images/thumbs/masonry/rucksack-600.jpg" 
-                             srcset="images/thumbs/masonry/rucksack-600.jpg 1x, images/thumbs/masonry/rucksack-1200.jpg 2x" alt="">
-                    </a>
-                </div> <!-- end entry__thumb -->
-
-                <div class="entry__text">
-                    <div class="entry__header">
-
-                        <div class="entry__meta">
-                            <span class="entry__cat-links">
-                                <a href="#">Lifestyle</a>
-                                <a href="#">Work</a>
-                            </span>
-                        </div>
-
-                        <h1 class="entry__title"><a href="single-standard.html">The Art Of Visual Storytelling.</a></h1>
-                        
-                    </div>
-                    <div class="entry__excerpt">
-                        <p>
-                        Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua cillum in consequat consequat in culpa in anim.
-                        </p>
-                    </div>
-                </div> <!-- end entry__text -->
-            
-            </article> <!-- end article -->
-
-            <article class="brick entry format-standard animate-this" >
-    
-                <div class="entry__thumb">
-                    <a href="single-standard.html" class="thumb-link">
-                        <img src="images/thumbs/masonry/jump-600.jpg" 
-                             srcset="images/thumbs/masonry/jump-600.jpg 1x, images/thumbs/masonry/jump-1200.jpg 2x" alt="">
-                    </a>
-                </div> <!-- end entry__thumb -->
-    
-                <div class="entry__text">
-                    <div class="entry__header">
-
-                        <div class="entry__meta">
-                            <span class="entry__cat-links">
-                                <a href="#">Family</a>
-                                <a href="#">Relationship</a>
-                            </span>
-                        </div>
-
-                        <h1 class="entry__title"><a href="single-standard.html">Create Meaningful Family Moments.</a></h1>
-                        
-                    </div>
-                    <div class="entry__excerpt">
-                        <p>
-                        Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua cillum in consequat consequat in culpa in anim.
-                        </p>
-                    </div>
-                </div> <!-- end entry__text -->
-                    
-            </article> <!-- end article -->
-
-            <article class="brick entry format-gallery animate-this">
-
-                <div class="entry__thumb slider">
-                        <div class="slider__slides">
-                            <div class="slider__slide">
-                                <img src="images/thumbs/masonry/gallery/slide-1-600.jpg" 
-                                     srcset="images/thumbs/masonry/gallery/slide-1-600.jpg 1x, images/thumbs/masonry/gallery/slide-1-1200.jpg 2x" alt=""> 
-                            </div>
-                            <div class="slider__slide">
-                                <img src="images/thumbs/masonry/gallery/slide-2-600.jpg" 
-                                     srcset="images/thumbs/masonry/gallery/slide-2-600.jpg 1x, images/thumbs/masonry/gallery/slide-2-1200.jpg 2x" alt="">
-                            </div>
-                            <div class="slider__slide">
-                                <img src="images/thumbs/masonry/gallery/slide-3-600.jpg" 
-                                     srcset="images/thumbs/masonry/gallery/slide-3-600.jpg 1x, images/thumbs/masonry/gallery/slide-3-1200.jpg 2x" alt="">  
-                            </div>
-                        </div>    
-                </div> <!-- end entry__thumb -->
-
-                <div class="entry__text">
-                    <div class="entry__header">
-
-                        <div class="entry__meta">
-                            <span class="entry__cat-links">
-                                <a href="#">Vacation</a>
-                            </span>
-                        </div>
-
-                        <h1 class="entry__title"><a href="single-gallery.html">The Best Tropical Leaves Images.</a></h1>
-                        
-                    </div>
-                    <div class="entry__excerpt">
-                        <p>
-                            Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua cillum in consequat consequat in culpa in anim.
-                        </p>
-                    </div>
-                </div> <!-- end entry__text -->
-            
-             </article> <!-- end article -->
-
-             <article class="brick entry format-link animate-this">
-
-                <div class="entry__thumb">
-                    <div class="link-wrap">
-                        <p>Looking for affordable &amp; reliable web hosting? We recommend Dreamhost.</p>
-                        <cite>
-                            <a target="_blank" href="http://www.dreamhost.com/r.cgi?287326">http://www.dreamhost.com</a>
-                        </cite>
-                    </div>
-                </div> <!-- end entry__thumb -->
-            
-            </article> <!-- end article -->
-
-            <article class="brick entry format-audio animate-this">
-
-                <div class="entry__thumb">
-                    <a href="single-audio.html" class="thumb-link">
-                        <img src="images/thumbs/masonry/guitarist-600.jpg" 
-                             srcset="images/thumbs/masonry/guitarist-600.jpg 1x, images/thumbs/masonry/guitarist-1200.jpg 2x" alt="">
-                    </a>
-                </div> <!-- end entry--thumb -->
-
-                <div class="entry__text">
-                    <div class="entry__header">
-
-                        <div class="entry__meta">
-                            <span class="entry__cat-links">
-                                <a href="#">Lifestyle</a>
-                            </span>
-                        </div>
-
-                        <h1 class="entry__title"><a href="single-audio.html">What Your Music Preference Says About You and Your Personality.</a></h1>
-                        
-                    </div>
-                    <div class="entry__excerpt">
-                        <p>
-                        Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua cillum in consequat consequat in culpa in anim.
-                        </p>
-                    </div>
-                </div> <!-- end entry__text -->
+            @foreach ($blog as $item)
                 
-            </article> <!-- end article -->
-
-            <article class="brick entry format-video animate-this">
-
-                <div class="entry__thumb video-image">
-                    <a href="https://player.vimeo.com/video/117310401?color=ffffff&title=0&byline=0&portrait=0" data-lity  class="thumb-link">
-                        <img src="images/thumbs/masonry/cookies-600.jpg" 
-                             srcset="images/thumbs/masonry/cookies-600.jpg 1x, images/thumbs/masonry/cookies-1200.jpg 2x" alt="">
-                    </a>
-                </div> <!-- end entry__thumb -->
-
-                <div class="entry__text">
-                    <div class="entry__header">
-
-                        <div class="entry__meta">
-                            <span class="entry__cat-links">
-                                <a href="#">Lifestyle</a> 
-                                <a href="#">Health</a>
-                            </span>
-                        </div>
-
-                        <h1 class="entry__title"><a href="single-video.html">No Sugar Oatmeal Cookies.</a></h1>
-                        
-                    </div>
-                    <div class="entry__excerpt">
-                        <p>
-                        Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua cillum in consequat consequat in culpa in anim.
-                        </p>
-                    </div>
-                </div> <!-- end entry__text -->
-            
-             </article> <!-- end article -->
-
-             <article class="brick entry format-standard animate-this">
+          
+            <article class="brick entry format-standard animate-this">
 
                 <div class="entry__thumb">
                     <a href="single-standard.html" class="thumb-link">
-                        <img src="images/thumbs/masonry/walk-600.jpg" 
-                             srcset="images/thumbs/masonry/walk-600.jpg 1x, images/thumbs/masonry/walk-1200.jpg 2x" alt="">
-                    </a>
-                </div> <!-- end entry__thumb -->
-
-                <div class="entry__text">
-                    <div class="entry__header">
-
-                        <div class="entry__meta">
-                            <span class="entry__cat-links">
-                                <a href="#">Work</a>
-                            </span>
-                        </div>
-
-                        <h1 class="entry__title"><a href="single-standard.html">Using Repetition and Patterns in Photography.</a></h1>
-                        
-                    </div>
-                    <div class="entry__excerpt">
-                        <p>
-                        Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua cillum in consequat consequat in culpa in anim.
-                        </p>
-                    </div>
-                </div> <!-- end entry__text -->
-            
-            </article> <!-- end article -->
-
-            <article class="brick entry format standard animate-this">
-
-                <div class="entry__thumb">
-                    <a href="single-standard.html" class="thumb-link">
-                        <img src="images/thumbs/masonry/lamp-600.jpg" 
-                             srcset="images/thumbs/masonry/lamp-600.jpg 1x, images/thumbs/masonry/lamp-1200.jpg 2x" alt="">
-                    </a>
-                </div> <!-- end entry__thumb -->
-
-                <div class="entry__text">
-                    <div class="entry__header">
-
-                        <div class="entry__meta">
-                            <span class="entry__cat-links">
-                                <a href="#">Design</a> 
-                                <a href="#">Photography</a>
-                            </span>
-                        </div>
-
-                        <h1 class="entry__title"><a href="single-standard.html">Another Standard Format Post.</a></h1>
-                        
-                    </div>
-                    <div class="entry__excerpt">
-                        <p>
-                        Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua cillum in consequat consequat in culpa in anim.
-                        </p>
-                    </div>
-                </div> <!-- end entry__text -->
-            
-             </article> <!-- end article -->
-
-             <article class="brick entry format-standard animate-this">
-
-                <div class="entry__thumb">
-                    <a href="single-standard.html" class="thumb-link">
-                        <img src="images/thumbs/masonry/real-600.jpg" 
-                             srcset="images/thumbs/masonry/real-600.jpg 1x, images/thumbs/masonry/real-1200.jpg 2x" alt="">
-                    </a>
-                </div> <!-- end entry__thumb -->
-
-                <div class="entry__text">
-                    <div class="entry__header">
-
-                        <div class="entry__meta">
-                            <span class="entry__cat-links">
-                                <a href="#">Travel</a> 
-                                <a href="#">Vacation</a>
-                            </span>
-                        </div>
-
-                        <h1 class="entry__title"><a href="single-standard.html">How We Live Is What Makes Us Real.</a></h1>
-                        
-                    </div>
-                    <div class="entry__excerpt">
-                        <p>
-                        Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua cillum in consequat consequat in culpa in anim.
-                        </p>
-                    </div>
-                </div> <!-- end entry__text -->
-            
-             </article> <!-- end article -->
-
-             <article class="brick entry format-standard animate-this">
-
-                <div class="entry__thumb">
-                    <a href="single-standard.html" class="thumb-link">
-                        <img src="images/thumbs/masonry/beetle-600.jpg" 
-                             srcset="images/thumbs/masonry/beetle-600.jpg 1x, images/thumbs/masonry/beetle-1200.jpg 2x" alt="">
+                        <img src="assets/images/thumbs/masonry/rucksack-600.jpg" 
+                             srcset="assets/images/thumbs/masonry/rucksack-600.jpg 1x, images/thumbs/masonry/rucksack-1200.jpg 2x" alt="">
                     </a>
                 </div> <!-- end entry__thumb -->
 
@@ -370,51 +60,23 @@
                         <div class="entry__meta">
                             <span class="entry__cat-links">
                                 <a href="#">Lifestyle</a>
+                                <a href="#">Work</a>
                             </span>
                         </div>
 
-                        <h1 class="entry__title"><a href="single-standard.html">Throwback To The Good Old Days.</a></h1>
+                        <h1 class="entry__title"><a href="single-standard.html">{{$item->titulo}}</a></h1>
                         
                     </div>
                     <div class="entry__excerpt">
                         <p>
-                        Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua cillum in consequat consequat in culpa in anim.
+                        {{$item->subtitulo}}
                         </p>
                     </div>
                 </div> <!-- end entry__text -->
             
-             </article> <!-- end article -->
+            </article> <!-- end article -->
+            @endforeach
 
-             <article class="brick entry format-standard animate-this">
-
-                <div class="entry__thumb">
-                    <a href="single-standard.html" class="thumb-link">
-                        <img src="images/thumbs/masonry/seashore-600.jpg" 
-                             srcset="images/thumbs/masonry/seashore-600.jpg 1x, images/thumbs/masonry/seashore-1200.jpg 2x" alt="">
-                    </a>
-                </div> <!-- end entry__thumb -->
-
-                <div class="entry__text">
-                    <div class="entry__header">
-
-                        <div class="entry__meta">
-                            <span class="entry__cat-links">
-                                <a href="#">Health</a> 
-                                <a href="#">Vacation</a>
-                            </span>
-                        </div>
-
-                        <h1 class="entry__title"><a href="single-standard.html">What The Beach Does to Your Brain.</a></h1>
-                        
-                    </div>
-                    <div class="entry__excerpt">
-                        <p>
-                        Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua cillum in consequat consequat in culpa in anim.
-                        </p>
-                    </div>
-                </div> <!-- end entry__text -->
-            
-             </article> <!-- end article -->
 
         </div> <!-- end brick-wrapper --> 
 

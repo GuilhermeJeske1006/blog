@@ -18,6 +18,10 @@ use App\Http\Controllers\HomeController;
 
 Route::get('/', [HomeController:: class, 'index']);
 
+Route::get('/ficha', [HomeController:: class, 'ficha']);
+Route::get('/post/create', [HomeController::class, 'create']);
+Route::post('/post', [HomeController::class, 'store']);
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),

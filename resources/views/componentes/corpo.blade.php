@@ -43,7 +43,7 @@
 
     <!-- header
     ================================================== -->
- @component('componentes.topo')@endcomponent<!-- end header -->
+ @component('componentes.topo', ['blog' => $blog])@endcomponent<!-- end header -->
 
 
     <!-- masonry

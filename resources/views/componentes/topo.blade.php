@@ -15,16 +15,13 @@
             <ul class="s-header__nav">
                 <li class="current"><a href="/" title="">Home</a></li>
                 <li class="has-children">
-                    <a href="#0" title="">Categories</a>
+                    <a href="#0" title="">categorias</a>
                     <ul class="sub-menu">
-                        <li><a href="category.html">Design</a></li>
-                        <li><a href="category.html">Lifestyle</a></li>
-                        <li><a href="category.html">Photography</a></li>
-                        <li><a href="category.html">Vacation</a></li>
-                        <li><a href="category.html">Work</a></li>
-                        <li><a href="category.html">Health</a></li>
-                        <li><a href="category.html">Family</a></li>
-                        <li><a href="category.html">Relationship</a></li>
+@foreach ($blog as $item)
+    
+
+                        <li><a href="category.html">{{$item->categoria}}</a></li>
+                        @endforeach
                     </ul>
                 </li>
                 <li><a href="contact.html" title="">Contato</a></li>
