@@ -9,16 +9,15 @@ class HomeController extends Controller
 {
     public function index(){
 
-        $blog = Blog::all();
+        $blog = Blog::paginate(3);
 
         return view('home.index', ['blog' => $blog]);
     }
 
     public function ficha(){
 
-        $blog = Blog::all();
 
-        return view('ficha.index', ['blog' => $blog]);
+        return view('ficha.index');
     }
 
     public function store(Request $request){

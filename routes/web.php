@@ -21,6 +21,8 @@ Route::get('/', [HomeController:: class, 'index']);
 Route::get('/ficha', [HomeController:: class, 'ficha']);
 Route::get('/post/create', [HomeController::class, 'create']);
 Route::post('/post', [HomeController::class, 'store']);
+Route::get('/ficha', 'HomeController@ficha')->name('ficha');
+
 
 Route::middleware([
     'auth:sanctum',

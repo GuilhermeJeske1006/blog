@@ -18,6 +18,8 @@ return new class extends Migration
             $table->string('titulo');
             $table->string('subtitulo');
             $table->string('categoria');       
+            $table->string('foto');  
+            $table->boolean('capa');
             $table->timestamps();
         });
     }

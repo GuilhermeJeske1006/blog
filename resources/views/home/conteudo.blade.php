@@ -9,7 +9,8 @@
                 <div class="entry__content">
 
                     <div class="featured-post-slider">
-                        @for($i=0; $i<5; $i++)
+                        @foreach ($blog as $item)
+
                         <div class="featured-post-slide">
                             <div class="f-slide">
                                 
@@ -22,12 +23,13 @@
                                         <li><a href="#" >Naruto Uzumaki</a></li>
                                     </ul>	
 
-                                    <h1 class="f-slide__title"><a href="single-standard.html" title="">A Practical Guide to a Minimalist Lifestyle.</a></h1> 
+                                    <h1 class="f-slide__title"><a href="single-standard.html" title="">{{ $item->titulo }}</a></h1> 
                                 </div>
 
                             </div> <!-- f-slide -->
                         </div> <!-- featured-post-slide -->
-                        @endfor
+                        
+                        @endforeach
 
                     </div> <!-- end feature post slider -->
                     
@@ -48,7 +50,7 @@
             <article class="brick entry format-standard animate-this">
 
                 <div class="entry__thumb">
-                    <a href="single-standard.html" class="thumb-link">
+                    <a href="{{ route('ficha')}}" class="thumb-link">
                         <img src="assets/images/thumbs/masonry/rucksack-600.jpg" 
                              srcset="assets/images/thumbs/masonry/rucksack-600.jpg 1x, images/thumbs/masonry/rucksack-1200.jpg 2x" alt="">
                     </a>
